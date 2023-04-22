@@ -1,0 +1,23 @@
+/* Write your CSS here */
+.list-items {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 10px;
+}
+.title {
+  font-size: 20px;
+  font-family: 'Roboto';
+  font-weight: 500;
+  color: black;
+}
+.delete {
+  font-size: 15px;
+  font-family: 'Roboto';
+  border: 1px solid #ff0b37;
+  color: #ff0b37;
+  background-color: transparent;
+  border-radius: 8px;
+  padding: 8px;
+  width: 10vw;
+}
